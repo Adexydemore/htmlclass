@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #343443;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header_container{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 10px;
+    max-width: 80%;
+    /* background-color: red; */
+
+
+}
+
+.portmenu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.portmenu_container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menus{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.sidemenu{
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+}
+
+.mainsection{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    min-height: 500px;
+    max-width: 80%;
+    margin: auto;
+    /* background-color: red; */
+
+
+}
+
+.name{
+    width: 60%;
+    align-items: center;
+    font-size: 2em;
+    border-bottom: #ffba1a;
+
+}
+
+.myname{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.border{
+    height: 4px;
+    width: 150px;
+    background-color:#ffba1a;
+    margin-bottom: 20px;
+}
+
+.bio_container{
+    width: 80%;
+    align-items: end;
+    gap: 30px;
+
+    
+   
+
+}
+
+.bio{
+    font-size: 17px;
+    font-weight: 300;
+    max-width: 40%;
+}
+
+.service_container{
+    width: 40;
+}
+
+.service_title{
+
+}
+
+.service_descpt{
+    font-size: 17px;
+    font-weight: 300;
+    max-width: 40%;
+}
